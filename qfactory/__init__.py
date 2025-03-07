@@ -1,3 +1,4 @@
+"""
 # qfactory
 
 A Qt based widget for representing a factory (factories.Factory) instance. This widget
@@ -33,3 +34,9 @@ w.show()
 
 qapp.exec()
 ```
+"""
+from .core import PathEditor
+from .core import PluginEditor
+from .core import FactoryWidget
+
+__version__ = "1.0.1"
